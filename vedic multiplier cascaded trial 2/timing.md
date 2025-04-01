@@ -3,21 +3,21 @@ Synthesized Timing Report
 Slack:                    inf
   Source:                 a[1]
                             (input port)
-  Destination:            out[12]
+  Destination:            out[40]
                             (output port)
   Path Group:             (none)
   Path Type:              Max at Slow Process Corner
-  Data Path Delay:        9.370ns  (logic 5.866ns (62.602%)  route 3.504ns (37.398%))
-  Logic Levels:           10  (CARRY4=5 IBUF=1 LUT3=1 LUT4=1 LUT5=1 OBUF=1)
+  Data Path Delay:        14.407ns  (logic 8.421ns (58.449%)  route 5.986ns (41.551%))
+  Logic Levels:           23  (CARRY4=12 IBUF=1 LUT3=3 LUT4=1 LUT5=3 LUT6=2 OBUF=1)
 
 Implemented Timing Report
 
 Slack:                    inf
-  Source:                 b[1]
+  Source:                 a[0]
                             (input port)
-  Destination:            out[13]
+  Destination:            out[25]
                             (output port)
   Path Group:             (none)
   Path Type:              Max at Slow Process Corner
-  Data Path Delay:        12.067ns  (logic 5.957ns (49.368%)  route 6.110ns (50.632%))
-  Logic Levels:           12  (CARRY4=5 IBUF=1 LUT3=1 LUT5=4 OBUF=1)
+  Data Path Delay:        26.593ns  (logic 7.927ns (29.809%)  route 18.666ns (70.191%))
+  Logic Levels:           21  (CARRY4=9 IBUF=1 LUT3=3 LUT5=5 LUT6=2 OBUF=1)
