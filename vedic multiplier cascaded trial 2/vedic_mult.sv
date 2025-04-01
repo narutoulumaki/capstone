@@ -1,4 +1,4 @@
-module vedic_mult #(parameter WIDTH = 8) (
+module vedic_mult #(parameter WIDTH = 32) (
     input logic [WIDTH-1:0] a, b,
     output logic [(2*WIDTH)-1:0] out
 );
